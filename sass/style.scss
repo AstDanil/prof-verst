@@ -8,9 +8,18 @@ body {
 	margin-top: 75px;
 }
 
+.wrapper {
+	display: flex;
+	flex-direction: column;
+}
+main {
+	flex-grow: 1;
+}
 .container {
-	max-width: $desctopWidth;
+	width: $desctopWidth + 30px;
 	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
 // Header
@@ -36,3 +45,10 @@ body {
 
 // Nav
 @import "blocks/nav";
+
+// Registration
+@import "blocks/registration";
+
+// Media
+@import "blocks/media-tablet";
+@import "blocks/media-mobile";
