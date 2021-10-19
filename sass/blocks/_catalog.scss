@@ -167,6 +167,7 @@
 	}
 	&__list {
 		display: flex;
+		justify-content: center;
 		flex-wrap: wrap;
 		gap: 30px;
 		margin-bottom: 48.5px - 30px;
@@ -201,7 +202,7 @@
 				opacity: 1;
 			}
 			button {
-				@include fs-fw(14px);
+				@include fs-fw();
 				border: 1px solid #fff;
 				padding: 9px 15px;
 				color: #fff;
@@ -314,4 +315,7 @@
 		}
 	}
 
+}
+.catalog--product {
+	margin-bottom: 128px;
 }
